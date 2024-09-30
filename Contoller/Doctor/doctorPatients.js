@@ -1,7 +1,7 @@
 const Doctor = require("../../Models/Doctor");
 const Patient = require('../../Models/Patient');
 const Node = require("../../Models/Node");
-
+/* issue  */
 const AddPatient = async(req,res)=>{
     try{
         const {doctor_id , patient_id} = req.body; 
@@ -67,7 +67,7 @@ const getInfo = async (req, res) => {
         return res.status(500).json({ message: err.message });
     }
 };
-
+//add hopital
 
 
 module.exports = {

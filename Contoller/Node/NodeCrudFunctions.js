@@ -1,4 +1,6 @@
 const Node = require('../../Models/Node');
+
+/* single :: multiID */
 const updateNode = async (req, res) => {
   try{
     const { node_id, heart_rate, spo2, temperature } = req.body;

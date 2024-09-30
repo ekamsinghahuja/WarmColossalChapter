@@ -1,6 +1,7 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
+/* tested */
 const patientSchema = new Schema({
   name: { type: String, required: true },
   gender: { type: String, required: true },
@@ -19,6 +20,8 @@ const patientSchema = new Schema({
   },  
   health_condition: { type: String}
 });
+
+
 
 const Patient = mongoose.model('Patient', patientSchema);
 

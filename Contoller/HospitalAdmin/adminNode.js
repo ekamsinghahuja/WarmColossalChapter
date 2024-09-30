@@ -1,5 +1,6 @@
 const Node = require('../../Models/Node');
 
+/* tested */
 
 /* create node */
 const createNode = async (req, res) => {

@@ -16,8 +16,10 @@ const nodeSchema = new Schema({
   heart_rate: { type: [timeSeriesDataSchema], default: [] },
   spo2: { type: [timeSeriesDataSchema], default: [] },
   temperature: { type: [timeSeriesDataSchema], default: [] }
-});
 
+
+});
+//patient ref
 const Node = mongoose.model('Node', nodeSchema);
 
 module.exports = Node;

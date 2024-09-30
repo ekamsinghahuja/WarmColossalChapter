@@ -10,4 +10,6 @@ const doctorSchema = new mongoose.Schema({
   patients: { type: [mongoose.Schema.Types.ObjectId], ref: 'Patient', default: [] } 
 });
 
+
+//hospital id add ref Hospital
 module.exports = mongoose.model('Doctor', doctorSchema);

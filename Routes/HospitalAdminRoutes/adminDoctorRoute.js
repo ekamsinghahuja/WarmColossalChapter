@@ -9,7 +9,7 @@ const {
 } = require('../../Contoller/HospitalAdmin/adminDoctor');
 
 router.post('/create',authMiddleware,createDoctor);
-router.get('/delete',authMiddleware,deleteDoctor);
+router.delete('/delete',authMiddleware,deleteDoctor);
 
 
 module.exports = router;

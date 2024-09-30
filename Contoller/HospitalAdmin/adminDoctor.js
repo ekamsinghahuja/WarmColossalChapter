@@ -2,7 +2,8 @@ const Doctor = require("../../Models/Doctor");
 const Hospital = require("../../Models/Hospital");
 const bcrypt = require('bcrypt');
 
-
+//create doctor ki jagah add doctor krna hai 
+// doctor apna acc banae ga  fir hospital wale admin babu  use add kr len ge 
 const createDoctor = async (req, res, next) => {
   try {
     const { name, spec, hospital_id, username, email, password, age, gender } = req.body;

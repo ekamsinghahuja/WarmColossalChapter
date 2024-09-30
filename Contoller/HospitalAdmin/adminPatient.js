@@ -1,6 +1,7 @@
 const Hospital = require('../../Models/Hospital');
 const Patient = require('../../Models/Patient');
 
+/* tested */
 // Create a new patient
 const createPatient = async (req, res) => {
   try {

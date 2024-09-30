@@ -19,7 +19,7 @@ mongoose.connect("mongodb+srv://ekamsinghahuja123:gX0j4DeWlfXgMQrN@cluster0.1brf
 
 
 /* Routers Imported */
-const nodeRouter = require('./Routes/NodeRoutes'); 
+const nodeRouter = require('./Routes/NodeRoutes/NodeRoutes'); 
 const hospitalRouter = require('./Routes/HospitalRoutes');
 
 const adminNodeRouter =  require('./Routes/HospitalAdminRoutes/adminNodeRoutes')
@@ -49,3 +49,9 @@ app.listen(port, () => {
 
 
 
+
+// .env
+// doctor router integrate
+// paths
+// get -> parameter
+// status
